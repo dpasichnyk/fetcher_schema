@@ -1,0 +1,13 @@
+{
+  "plugins": ["transform-export-extensions", "@babel/plugin-transform-modules-amd"],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "11"
+        }
+      }
+    ]
+  ],
+}
